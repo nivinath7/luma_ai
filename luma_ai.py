@@ -5,7 +5,7 @@ import time
 from lumaai import LumaAI
 
 # Set up LumaAI client
-client = LumaAI(auth_token=os.getenv("LUMAAI_API_KEY"))
+client = LumaAI(auth_token="luma-79bd1c61-f76b-4d6a-8795-0751876c01cd-82e025a2-3d5b-4a5e-b732-a8f2ec438f1e")
 
 st.set_page_config(page_title="LumaAI Video Generator", layout="centered")
 st.title("🎥 LumaAI Video Generator")
